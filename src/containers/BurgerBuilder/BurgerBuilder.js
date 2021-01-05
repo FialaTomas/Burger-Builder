@@ -72,11 +72,11 @@ class BurgerBuilder extends Component {
   purchaseCancelHandler = () => {
     this.setState({ purchasing: false });
   };
-
+  // --Placeholder--
   purchaseContinueHandler = () => {
     alert("You continue!");
   };
-
+  //----
   render() {
     const disabledInfo = {
       ...this.state.ingredients,
